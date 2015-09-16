@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YammerTestConsole", "YammerTestConsole\YammerTestConsole.csproj", "{9161475B-10DC-4D70-A169-442EFA6EE900}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRewardPuan", "TestRewardPuan\TestRewardPuan.csproj", "{DD84383A-FC8C-4B35-BE91-E8F9407A3769}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9161475B-10DC-4D70-A169-442EFA6EE900}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9161475B-10DC-4D70-A169-442EFA6EE900}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9161475B-10DC-4D70-A169-442EFA6EE900}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9161475B-10DC-4D70-A169-442EFA6EE900}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD84383A-FC8C-4B35-BE91-E8F9407A3769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD84383A-FC8C-4B35-BE91-E8F9407A3769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD84383A-FC8C-4B35-BE91-E8F9407A3769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD84383A-FC8C-4B35-BE91-E8F9407A3769}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
