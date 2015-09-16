@@ -110,12 +110,13 @@
     <Content Include="Default.aspx" />
     <Content Include="GivePoint.aspx" />
     <Content Include="PointsTable.aspx" />
-    <Content Include="Redirect.aspx" />
     <None Include="Properties\PublishProfiles\titan830.pubxml" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-2.1.4.min.map" />
   </ItemGroup>
   <ItemGroup>
@@ -142,14 +143,7 @@
       <DependentUpon>PointsTable.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Redirect.aspx.cs">
-      <DependentUpon>Redirect.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Redirect.aspx.designer.cs">
-      <DependentUpon>Redirect.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="UserPointModel.cs" />
+    <Compile Include="Models\UserPointModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
