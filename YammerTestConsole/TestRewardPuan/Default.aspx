@@ -10,7 +10,7 @@
     <script type="text/javascript" data-app-id="1q4fJuqSy6XYdiQfiGsQ"
         src="https://c64.assets-yammer.com/assets/platform_js_sdk.js">
     </script>
-    <script>
+    <script type="text/javascript">
         var user;
         var accessToken;
         var authOK = false;
@@ -139,15 +139,14 @@
             <input type="button" id="btnGivePoints" onclick="givePoints();" value="Submit" />
             <hr />
         </div>
-        <script>
+        <script type="text/javascript">
             yam.connect.loginButton('#yammer-login', function (resp) {
                 if (resp.authResponse) {
                     if (!authOK)
                         location.reload();
                 }
             });
-        </script>
-        
+        </script>        
     </div>
 </body>
 </html>

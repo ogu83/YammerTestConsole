@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <style>
+    <style type="text/css">
         table, th, td {
             border: 1px solid black;
             padding: 5px;
